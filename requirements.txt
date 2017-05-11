@@ -1,0 +1,13 @@
+Flask==0.10.1
+Jinja2==2.7.1
+MarkupSafe==0.18
+Werkzeug==0.9.3
+gunicorn==17.5
+ipdb==0.7
+ipython==1.0.0
+itsdangerous==0.23
+redis==2.8.0
+suds-jurko==0.6
+wsgiref==0.1.2
+numpy==1.11.0
+pandas==0.20.1

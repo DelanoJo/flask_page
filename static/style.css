@@ -1,0 +1,104 @@
+/* Pretty Pandas Dataframes */
+.dataframe * {border-color: #c0c0c0 !important;}
+.dataframe th{background: #eee;}
+.dataframe td{
+    background: #fff;
+    text-align: right; 
+    min-width:5em;
+}
+
+/* Format summary rows */
+.dataframe-summary-row tr:last-child,
+.dataframe-summary-col td:last-child{
+    background: #eee;
+    font-weight: 500;
+}
+
+
+html,body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  height:100%;
+  overflow:hidden;
+  text-align: center;
+  padding: 20px;
+}
+
+.lead {
+  margin: 0 auto;
+  text-align: center;
+  margin-left: 40%;
+}
+
+.form {
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 40%
+
+}
+
+.c-side {
+  float: left;
+  height: 100%;
+}
+
+.a-side {
+  float: right;
+}
+
+.draggable {
+    width: 200px;
+    height: 20px;
+    background: #eee;
+    padding: 10px;
+    margin: 2px 0;
+    border: solid 1px #ccc;
+    text-align: center;
+    line-height: 0px;
+    cursor: pointer;
+
+}
+
+.droppable {
+    width: 400px;
+    min-height: 28px;
+    background: #eee;
+    padding: 10px;
+    margin: 2px 0;
+    border: solid 1px #ccc;
+    text-align: right;
+    line-height: 0px;
+    cursor: pointer;
+}
+
+.droppable > div {
+  display: block;
+  float: right;
+  padding-right: 50%;
+}
+
+.droppable.joined {
+  border-color: red;
+}
+
+.output {
+  display: inline-block;
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 100%;
+  height:100%;
+  text-align: center;
+  width: 40%
+}
+table .dataframe {
+    display: inline-block;
+    margin: 0 auto;
+    width: 40%;
+}
